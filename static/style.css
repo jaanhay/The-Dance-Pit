@@ -1,22 +1,36 @@
 .container {
-  display: flex;
-  flex-direction:row;
+  display: grid;
+  grid-template-columns: 150px 100px; 
+  gap: 10px; 
   align-items: center;
-  justify-content: center; 
+  border-bottom: 1px solid gray; 
+  padding: 10px; 
+  margin-left:150px;
+  margin-right:100px;
   
 }
 button {
   padding: 10px;
-  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 body {
-  font-family:additive;
+  font-family:sans-serif;
   max-width: 720px;
   margin:0 auto 0 auto;
+  
 }
 #yay{
   align-items:center;
 }
 h3 {
   text-align:center;
+}
+#mainstuff {
+  text-wrap:wrap;
+  text-align: justify;
+}
+
+h1 {
+  color:rgb(250,100,50)
 }
